@@ -13,7 +13,6 @@ import type z from "zod";
 import { useEffect, useState } from "react";
 import type { IBook } from "@/utils/types";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "../ui/dialog";
-import { EditIcon } from "lucide-react";
 
 export default function UpdateBook(props: { id: string }) {
     const [open, setOpen] = useState(false);

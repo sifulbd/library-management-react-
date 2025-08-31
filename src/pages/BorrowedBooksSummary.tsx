@@ -51,7 +51,10 @@ export default function BorrowedBooksSummary() {
 
     return (
         <>
-            <Banner className="h-[40vh]" title="Your Borrowed Collection" />
+            <div className="text-center h-[40vh]">
+                <h2 className="text-4xl mt-32">Ola, Welcome </h2>
+                <p>Your Borrowed Collection</p>
+            </div>
             <Wrapper>
                 <div className="hidden md:block mb-2">
                     <Table className="text-center">

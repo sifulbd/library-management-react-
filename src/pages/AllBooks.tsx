@@ -4,7 +4,10 @@ import BooksTable from "@/components/common/BooksTable";
 const AllBooks = () => {
     return (
         <div>
-            <Banner className="h-[60vh]" title="Explore Our Collection" description="Browse every book in the library — view details, edit, borrow, or manage copies, all in one convenient place." />
+            <div className="text-center">
+                <h2 className="text-4xl mt-32">Ola, Welcome </h2>
+                <p>All Book are here</p>
+            </div>
             <BooksTable items={12} />
         </div>
     );

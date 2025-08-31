@@ -73,7 +73,6 @@ export default function CreateBook() {
 
     return (
         <>
-            <Banner className="h-[30vh]" title="Add a new book" />
             <Wrapper>
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 max-w-3xl mx-auto rounded-md p-5">
