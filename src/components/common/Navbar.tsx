@@ -7,7 +7,7 @@ import { useTheme } from "@/providers/theme-provider";
 const navItems = [
     { name: "Home", to: "/" },
     { name: "All Books", to: "/all-books" },
-    { name: "Add Book", to: "/add-book" },
+    { name: "Add New Book", to: "/add-book" },
     { name: "Borrow Summary", to: "borrow-summary" },
 ];
 
@@ -76,7 +76,7 @@ const Navbar = () => {
     return (
         <>
             <header
-                className={`w-full h-[78px] fixed flex items-center top-0 left-0 z-50 transition-transform duration-300 bg-accent
+                className={`w-full h-[78px] fixed flex items-center top-0 left-0 z-50 transition-transform duration-300
         ${isVisible ? "translate-y-0" : "-translate-y-full"} ${pathname === "/" ? (scrolled ? "shadow-2xs shadow-accent" : "shadow-2xs shadow-accent") : "shadow-2xs shadow-accent"}
       `}
             >
@@ -116,7 +116,7 @@ interface IActiveLink {
 
 export const ActiveLink = ({ to, children }: IActiveLink) => {
     return (
-        <NavLink to={to} className={({ isActive }) => `${isActive ? "text-chart-2" : ""} "text-md font-semibold text-primary"`}>
+        <NavLink to={to} className={({ isActive }) => `${isActive ? "text-chart-1" : ""} "text-md font-semibold text-primary"`}>
             {children}
         </NavLink>
     );

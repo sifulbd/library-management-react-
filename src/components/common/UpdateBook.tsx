@@ -82,9 +82,7 @@ export default function UpdateBook(props: { id: string }) {
         <>
             <Dialog open={open} onOpenChange={setOpen}>
                 <DialogTrigger asChild>
-                    <Button>
-                        <EditIcon />
-                    </Button>
+                    <Button>Edit</Button>
                 </DialogTrigger>
                 <DialogContent>
                     <DialogTitle>Update this Book</DialogTitle>

@@ -60,17 +60,14 @@ export default function SingleBook() {
 
     return (
         <Wrapper>
-            <div onClick={goBack} className="text-chart-2 cursor-pointer pb-4">
+            <div onClick={goBack} className="text-black cursor-pointer pb-4">
                 <ArrowLeftCircle className="w-8 h-8" />
             </div>
-            <div className="flex flex-col lg:flex-row justify-center items-start gap-4 md:gap-8">
-                {/* Book Image */}
-                <img src={book.imageUrl || "https://i.ibb.co.com/1fLCTzCV/4735.jpg"} alt={book.title} className="w-full lg:w-1/2 aspect-auto object-contain rounded-lg" />
-
+            <div className="flex flex-col text-left  p-8 justify-center items-start gap-4 md:gap-8">
                 {/* Book Details */}
-                <div className="w-full lg:w-1/2 space-y-6">
+                <div className="space-y-6">
                     <div>
-                        <h1 className="text-3xl lg:text-4xl font-bold mb-2">{book.title}</h1>
+                        <h1 className="text-3xl lg:text-4xl font-bold mb-2 mt-8">{book.title}</h1>
                         <p className="text-xl text-muted-foreground mb-4">by {book.author}</p>
 
                         <div className="flex flex-wrap gap-2 mb-4">
@@ -123,6 +120,9 @@ export default function SingleBook() {
                         </>
                     )}
                 </div>
+
+                {/* Book Image */}
+                <img src={book.imageUrl || "https://i.ibb.co.com/1fLCTzCV/4735.jpg"} alt={book.title} className="aspect-auto object-contain rounded-lg" />
             </div>
         </Wrapper>
     );
