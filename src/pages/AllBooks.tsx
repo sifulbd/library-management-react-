@@ -1,4 +1,3 @@
-import { Banner } from "@/components/common/Banner";
 import BooksTable from "@/components/common/BooksTable";
 
 const AllBooks = () => {

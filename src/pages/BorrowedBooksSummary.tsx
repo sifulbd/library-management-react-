@@ -6,7 +6,6 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router";
 import Wrapper from "@/components/common/Wrapper";
-import { Banner } from "@/components/common/Banner";
 
 export default function BorrowedBooksSummary() {
     const { data, isLoading, error } = useGetBorrowedBooksSummaryQuery(undefined, {

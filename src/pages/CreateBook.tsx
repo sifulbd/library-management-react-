@@ -13,7 +13,6 @@ import { Bounce, toast } from "react-toastify";
 import { bookSchema } from "@/utils/bookSchema";
 import type z from "zod";
 import Wrapper from "@/components/common/Wrapper";
-import { Banner } from "@/components/common/Banner";
 
 export default function CreateBook() {
     const navigate = useNavigate();
