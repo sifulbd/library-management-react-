@@ -50,7 +50,7 @@ export default function BorrowedBooksSummary() {
 
     return (
         <>
-            <div className="text-center h-[40vh]">
+            <div className="text-center h-[10vh]">
                 <h2 className="text-4xl mt-32">Ola, Welcome </h2>
                 <p>Your Borrowed Collection</p>
             </div>
