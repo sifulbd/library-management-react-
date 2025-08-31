@@ -1,7 +1,7 @@
 # Minimal Library Management System
 
-A minimal, client-side **Library Management System** built with **React**, **TypeScript**, **RTK Query (Redux Toolkit Query)** and **Tailwind CSS** (or plain CSS).  
-This project demonstrates clean state management, a simple REST API integration, and a responsive minimalist UI to view/manage books and handle borrowing — **no authentication** required.
+A minimal, client-side **Library Management System** built with **React**, **TypeScript**, **RTK Query ** and **Tailwind CSS**
+This project demonstrates clean state management, a simple REST API integration, and a responsive minimalist UI to view/manage books and handle borrowing.
 
 ## Project Overview
 
