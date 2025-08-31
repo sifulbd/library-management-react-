@@ -9,7 +9,7 @@ type Props = {
 export const Banner = (props: Props) => {
     return (
         <div className="text-center">
-            <h2 className="text-4xl mt-32">Minimal Liabray </h2>
+            <h2 className="text-4xl mt-32">Ola, Welcome </h2>
         </div>
     );
 };

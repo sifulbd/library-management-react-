@@ -111,7 +111,7 @@ const BooksTable = (props: { items: number }) => {
             </div>
             <div className="hidden lg:block mb-2">
                 <Table className="text-center">
-                    <TableHeader className="bg-gray-500 [&>tr>th]:text-center [&>tr>th]:text-background">
+                    <TableHeader className="bg-black [&>tr>th]:text-center [&>tr>th]:text-white">
                         <TableRow>
                             <TableHead>Image</TableHead>
                             <TableHead>Title</TableHead>

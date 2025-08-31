@@ -55,7 +55,7 @@ export default function BorrowedBooksSummary() {
             <Wrapper>
                 <div className="hidden md:block mb-2">
                     <Table className="text-center">
-                        <TableHeader className="bg-chart-3 [&>tr>th]:text-center [&>tr>th]:text-background">
+                        <TableHeader className="bg-black [&>tr>th]:text-center [&>tr>th]:text-white">
                             <TableRow>
                                 <TableHead>Book title</TableHead>
                                 <TableHead>ISBN</TableHead>
