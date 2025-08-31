@@ -1,14 +1,14 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { Menu, Moon, Sun, X } from "lucide-react";
 import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { Link, NavLink, useLocation } from "react-router";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { useTheme } from "@/providers/theme-provider";
 
 const navItems = [
     { name: "Home", to: "/" },
     { name: "All Books", to: "/all-books" },
     { name: "Add New Book", to: "/add-book" },
-    { name: "Borrow Summary", to: "borrow-summary" },
+    { name: "Borrow Summary", to: "/borrow-summary" },
 ];
 
 const Navbar = () => {
